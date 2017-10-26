@@ -1,0 +1,13 @@
+
+Linear Regression
+
+
+1st workshop contents
+goto - https://github.com/ankitesh97 and open workshop.ipynb
+
+Andrew ng's course (videos 1 to 17 and 19 to 20 bounds included) from the playlist's link below
+https://www.youtube.com/watch?v=qeHZOdmJvFU&list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+
+
+Basic numpy course
+go to the numpy section in the workshop.ipynb file (if you don't understand from that then you can read the documentation on that particular function)

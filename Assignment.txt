@@ -1,0 +1,64 @@
+
+
+Topic
+Logistic Regresion (slight modification of linear regression)
+Flask (optional)
+
+Learning resource (you can skip this section and directly jump to implmentation if you already know logistic regression)
+
+Logistic regression
+
+Andrew ng's course (videos 33 to 39) from the playlist's link below
+https://www.youtube.com/watch?v=qeHZOdmJvFU&list=PLZ9qNFMHZ-A4rycgrgOYma6zxF4BZGGPW
+
+Although the above link is enough and doesn't contain any new term, but if you are keen to learn more then you can visit the below link
+https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/
+
+You can calculate the accuracy of your model by (total_datapoint_classified_correct_by_your_model/total_data_points)*100
+
+This is called as classification accuracy
+
+Flask (optional)
+
+This is optional as this is not under the compulsion assignment, but it will be useful if you learn it
+
+First and 2nd post of this blog
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+For html and flask communication
+https://stackoverflow.com/questions/12277933/send-data-from-a-textbox-into-flask (to send data from the form to flask endpoint make sure in the action part you specify the url of your end point)
+https://stackoverflow.com/questions/42154602/how-to-get-form-data-in-flask (this shows how to receive form data in flask)
+
+
+
+Assignment
+
+In this task you will apply binary classification on the mobile data set to predict if the buyer will buy your mobile or not.
+
+Your main task is to print the accuracy of your model on the terminal itself
+
+Data description
+
+there are two files
+1 - train.csv
+this file contains the data you will train on
+
+there are 6 features columns (which contains features of your mobile)
+1 output column which called output
+int the output column 1 signifies that the user will buy your phone and 0 specifies he will not
+
+Your task to train a Logistic Regression model on this dataset
+
+2 - test.csv
+
+This data set should be used for testing
+
+
+Print the accuracy of model on your terminal
+
+
+Extension (note this task is not mandatory)
+
+Build the flask app for the same
+The app should take the respective integer inputs on the website (in textboxes)
+and your flask app should return the result
